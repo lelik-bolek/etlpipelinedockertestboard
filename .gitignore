@@ -1,0 +1,35 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.env
+
+# --- Airflow ---
+airflow.cfg
+airflow.db
+logs/
+airflow-webserver.pid
+standalone_admin_password.txt
+
+# --- RabbitMQ / Postgres  ---
+rabbitmq/
+rabbitmq-data/
+postgres/
+pgdata/
+*.rdb
+*.aof
+
+# --- OS (Windows + Mac) ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# 
+.idea/
+.vscode/
+*.swp
+
+# ai
+.codeassistant/
